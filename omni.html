@@ -17,14 +17,14 @@
 
 <body>
     <header class="header">
-        <img class="logo" alt="Omnifood logo" src="/img/img7.png" />
+        <img class="logo" alt="Omnifood logo" src="/img/logo.png" />
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">How it works</a></li>
-                <li><a class="main-nav-link" href="#">Meals</a></li>
-                <li><a class="main-nav-link" href="#">Testimonials</a></li>
-                <li><a class="main-nav-link" href="#">Pricing</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+                <li><a class="main-nav-link" href="#how-it-works">How it works</a></li>
+                <li><a class="main-nav-link" href="#meals">Meals</a></li>
+                <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="main-nav-link nav-cta" href="#try-for-free">Try for free</a></li>
             </ul>
         </nav>
     </header>
@@ -39,8 +39,8 @@
                     <p class="hero-description ">
                         The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal testes and nutritional needs.
                     </p>
-                    <a href="# " class="btn btn--full margin-right-sm ">Start eating well</a>
-                    <a href="# " class="btn btn--outline ">Learn more &darr;</a>
+                    <a href="#try-for-free" class="btn btn--full margin-right-sm ">Start eating well</a>
+                    <a href="#how-it-works" class="btn btn--outline ">Learn more &darr;</a>
                     <div class="delivered-meals">
                         <div class="delivered-imgs">
                             <img src="./img/img1.png" alt="customes photo" />
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="hero-img-box ">
-                    <img src="./img/hero.png " class="hero-img " alt="Women enjoying food, meals in storage container, and food bowls on a table " />
+                    <img src="/img/hero.webp " class="hero-img " alt="Women enjoying food, meals in storage container, and food bowls on a table " />
 
                 </div>
             </div>
@@ -77,7 +77,7 @@
             </div>
         </section>
 
-        <section class="section-how">
+        <section class="section-how" id="how-it-works">
             <div class="container">
                 <span class="subheading">How it works</span>
                 <h2 class="heading-secondary">
@@ -96,11 +96,11 @@
                     </p>
                 </div>
                 <div class="step-img-box">
-                    <img src="./img/screen1.png" class="step-img" alt="iphone app preference selection screen" />
+                    <img src="./img/app-screen-1.png" class="step-img" alt="iphone app preference selection screen" />
                 </div>
 
                 <div class="step-img-box">
-                    <img src="./img/screen2.png" class="step-img" alt="iphone app meal approving plan screen" />
+                    <img src="/img/app-screen-2.png" class="step-img" alt="iphone app meal approving plan screen" />
                 </div>
                 <div class="step-text-box">
                     <p class="step-number">02</p>
@@ -122,12 +122,12 @@
                     </p>
                 </div>
                 <div class="step-img-box">
-                    <img src="./img/screen3.png" class="step-img" alt="iphone app delevery screen" />
+                    <img src="/img/app-screen-3.png" class="step-img" alt="iphone app delevery screen" />
                 </div>
             </div>
         </section>
 
-        <section class="section-meals">
+        <section class="section-meals" id="meals">
             <div class="container center-text">
                 <span class="subheading">Meals</span>
                 <h2 class="heading-secondary">
@@ -137,7 +137,7 @@
 
             <div class="container grid grid--3-cols margin-bottom-md">
                 <div class="meals">
-                    <img src="./img/meal.png" class="meal-img" alt="Japanese Gyozas" />
+                    <img src="/img/meal-1.jpg" class="meal-img" alt="Japanese Gyozas" />
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegetarian">Vegetarian</span>
@@ -155,7 +155,7 @@
                 </div>
 
                 <div class="meals">
-                    <img src="./img/meal2.png" class="meal-img" alt="Japanese Gyozas" />
+                    <img src="/img/meal-2.jpg" class="meal-img" alt="Japanese Gyozas" />
                     <div class="meal-content">
                         <div class="meal-tags">
                             <span class="tag tag--vegan">Vegan</span>
@@ -203,7 +203,7 @@
             </div>
         </section>
 
-        <section class="section-testimonial grid grid--2-cols">
+        <section class="section-testimonial grid grid--2-cols" id="testimonials">
             <div class="testimonial-container">
                 <span class="subheading">Testimonial</span>
                 <h2 class="heading-secondary">
@@ -296,7 +296,7 @@
             </div>
         </section>
 
-        <section class="section-pricing">
+        <section class="section-pricing" id="pricing">
             <div class="container">
                 <span class="subheading">Pricing</span>
                 <h2 class="heading-secondary">
@@ -304,7 +304,7 @@
                 </h2>
             </div>
 
-            <div class="container grid grid--2-cols">
+            <div class="container grid grid--2-cols margin-bottom-md">
                 <div class="princing-plan princing-plan--starter">
                     <header class="plan-header ">
                         <p class="plan-name">Starter</p>
@@ -364,7 +364,166 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container grid">
+                <aside class="plan-details">
+                    Prices include all applicable taxes. You can cancel at any time. Both plans include the following:
+                </aside>
+            </div>
+
+            <div class="container grid grid--4-cols">
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+                    <p class="feature-title">Never cook again!</p>
+                    <p class="feature-text">
+                        Our subscriptions cover 365 days per year, even including major holidays.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+                    <p class="feature-title">Local and organic</p>
+                    <p class="feature-text">
+                        Our cooks only use local, fresh, and organic products to prepare your meals.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+                    <p class="feature-title ">No waste</p>
+                    <p class="feature-text ">
+                        All our partners only use reusable containers to package all your meals.
+                    </p>
+                </div>
+
+                <div class="feature ">
+                    <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+                    <p class="feature-title ">Pause anytime</p>
+                    <p class="feature-text">
+                        Going on vacation? Just pause your subscription, and we refund unused days.
+                    </p>
+                </div>
+
+            </div>
+
         </section>
+
+        <section class="section-cta" id="try-for-free">
+            <div class="container">
+                <div class="cta">
+                    <div class="cta-text-box">
+                        <h2 class="heading-secondary">Get your first meal for free!</h2>
+                        <p class="cta-text">
+                            Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+                        </p>
+
+                        <form class="cta-form" action="#">
+                            <div>
+                                <label for="ful-name">Full name</label>
+                                <input id="ful-name" type="text" placeholder="John Smith" required/>
+                            </div>
+
+                            <div>
+                                <label for="email">Email address</label>
+                                <input id="email" type="text" placeholder="me@example.com" />
+                            </div>
+
+                            <div>
+                                <label for="select-where">Where did you hear from us?</label>
+                                <select id="select-where" required>
+                                    <option value="">Please choose one option:</option>
+                                    <option value="friends">Friends and family</option>
+                                    <option value="youtube">youtube video</option>
+                                    <option value="podcast">Podcast</option>
+                                    <option value="ad">Facebook ad</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+
+                            <button class="btn btn-form">Sign up now</button>
+
+                        </form>
+
+                    </div>
+                    <div class="cta-img-box" role="img" aria-label="Women enjoying food"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container grid grid--5-cols">
+                <div class="logo-col">
+                    <a href="#" class="footer-logo">
+                        <img class="logo" alt="Omnifood logo" src="/img/logo.png" />
+                    </a>
+
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="#">
+                                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">
+                                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#">
+                                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="copyright">
+                        Copyright &copy; <span class="year">2026</span> by Omnifood, Inc. All rights reserved.
+                    </p>
+                </div>
+
+                <div class="address-col">
+                    <p class="footer-heading">Contact us</p>
+                    <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="#">415-201-6370</a>
+              <a class="footer-link" href="#">hello@omnifood.com</a>
+            </p>
+          </address>
+                </div>
+
+                <nav class="nav-col">
+                    <p class="footer-heading">Account</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">Create account</a></li>
+                        <li><a class="footer-link" href="#">Sign in</a></li>
+                        <li><a class="footer-link" href="#">iOS app</a></li>
+                        <li><a class="footer-link" href="#">Android app</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="nav-col">
+                    <p class="footer-heading">Company</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">About Omnifood</a></li>
+                        <li><a class="footer-link" href="#">For Business</a></li>
+                        <li><a class="footer-link" href="#">Cooking partners</a></li>
+                        <li><a class="footer-link" href="#">Careers</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="nav-col">
+                    <p class="footer-heading">Resources</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">Recipe directory </a></li>
+                        <li><a class="footer-link" href="#">Help center</a></li>
+                        <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
     </main>
 </body>
 
